@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Threading;
+using System.Timers;
 
 namespace Prøve
 {
@@ -20,7 +20,7 @@ namespace Prøve
             Subject = subject;
         }
 
-        public void SetTime(Object source, System.Timers.ElapsedEventArgs e)
+        public void SetTime(Object source, ElapsedEventArgs e)
         {
             Console.WriteLine("Done");
         }
