@@ -12,7 +12,7 @@ namespace Prøve
 
         public Elev(string navn, bool isDumpet, float height, int grade, string subject)
         {
-            //this.Navn = navn;
+            //this.Navn = navn; <-- Too long.
             Navn = navn;
             IsDumpet = isDumpet;
             Height = height;
@@ -20,7 +20,7 @@ namespace Prøve
             Subject = subject;
         }
 
-        public void SetTime(Object source, ElapsedEventArgs e)
+        public void SetTime(object source, ElapsedEventArgs e)
         {
             Console.WriteLine("Done");
         }

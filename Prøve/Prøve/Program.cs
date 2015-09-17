@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 using System.Timers;
 
 namespace Prøve
@@ -80,8 +79,12 @@ namespace Prøve
             #region Opg11
             // Opg 11
             Console.WriteLine(aText + "..   Vowel count: " + aText.VowelCount());
+            #endregion
+            #region Opg11.5
             // Opg 11.5
             Console.WriteLine(aText + "..   Consonant count: " + aText.ConsonantCount());
+            #endregion
+            #region Opg12
             Console.WriteLine(aText.ToStoreBogstaver());
             #endregion
             #endregion
