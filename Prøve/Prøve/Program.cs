@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Timers;
 
 namespace Prøve
@@ -8,7 +9,7 @@ namespace Prøve
         private static Timer _aTimer;
         private static void Main()
         {
-            #region Stuff
+            #region Opgave 1-5
             #region opg1
             /*
              * SUMMARY:
@@ -40,6 +41,8 @@ namespace Prøve
             Func<string, string, bool> areTheseTwoStringsTheSameLenghtFunc = (s1, s2) => s1.Length > s2.Length;
                 //Send some kode to areTheseTwoStringsTheSameLenghtFunc
             #endregion
+            #endregion
+            #region Opgave 6-9
             #region opg6
             /*
              * SUMMARY: 
@@ -62,7 +65,9 @@ namespace Prøve
                               "An int: {2}\n" +
                               "A string: {3}", textString.GetType(), intint.GetType(), typeof(int), typeof(string));
             #endregion
-            #region opg10-11-12
+            #endregion
+            #region Opgave 10-15
+            #region opg10
             /*
              * SUMMARY:
              *      Lav to (Har lavet tre..) extensions til strings.
@@ -71,12 +76,16 @@ namespace Prøve
              *      2   ) modtag en string, returner samme string, men med store bogstaver.
              */
             string aText = "This is a long text on which we will count the amount of vowels and consonants. And to uppercase";
+            #endregion
+            #region Opg11
+            // Opg 11
             Console.WriteLine(aText + "..   Vowel count: " + aText.VowelCount());
+            // Opg 11.5
             Console.WriteLine(aText + "..   Consonant count: " + aText.ConsonantCount());
+            Console.WriteLine(aText.ToStoreBogstaver());
             #endregion
             #endregion
 
-            Console.WriteLine(aText.ToStoreBogstaver());
             _aTimer = new Timer(1000);
             _aTimer.Elapsed += elev.SetTime;
             _aTimer.Enabled = true;

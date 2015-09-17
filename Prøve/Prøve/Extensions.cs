@@ -17,6 +17,12 @@ namespace Prøve
         }
         public static string ToStoreBogstaver(this string s)
         {
+            // Nope.
+            //for (int i = 0; i < s.Length; i++)
+            //{
+            //    s[i] = Kode til uppercase.
+            //}
+            //return s;
             return s.ToUpper();
         }
     }
