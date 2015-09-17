@@ -1,4 +1,7 @@
-﻿namespace Prøve
+﻿using System;
+using System.Threading;
+
+namespace Prøve
 {
     class Elev
     {
@@ -17,9 +20,9 @@
             Subject = subject;
         }
 
-        public void SetTime(int timeInSeconds)
+        public void SetTime(Object source, System.Timers.ElapsedEventArgs e)
         {
-            
+            Console.WriteLine("Done");
         }
 
         public override string ToString()

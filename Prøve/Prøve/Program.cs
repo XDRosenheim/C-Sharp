@@ -5,22 +5,9 @@ namespace Prøve
 {
     class Program
     {
-        //private static int counter = 0;
-        private static void OnTimedEvent(Object source, ElapsedEventArgs e)
-        {
-            Console.SetCursorPosition(0,0);
-            Console.WriteLine(e.SignalTime);
-            //Console.WriteLine(counter);
-            //counter++;
-        }
-
         private static Timer _aTimer;
         private static void Main(string[] args)
         {
-            _aTimer = new Timer(100);
-            _aTimer.Elapsed += OnTimedEvent;
-            _aTimer.Enabled = true;
-
             #region opg1
             /*
              * SUMMARY:
@@ -70,7 +57,12 @@ namespace Prøve
 
             #endregion
 
-
+            _aTimer = new Timer(5000);
+            _aTimer.Elapsed += elev.SetTime;
+            _aTimer.Enabled = true;
+            Console.ReadKey();
+            _aTimer.Enabled = false;
+            Console.WriteLine("Hej");
             Console.ReadKey();
         }
     }
