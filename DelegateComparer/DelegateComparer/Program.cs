@@ -16,18 +16,18 @@ namespace DelegateComparer
 
         static void BubbleSort<T>(List<T> theList, CompareMethod<T> compMethod)
         {
-            bool sorted = false;
-            int top = 1;
+            var sorted = false;
+            var top = 1;
 
             while (!sorted)
             {
-                for (int i = 0; i < theList.Count - top; i++)
+                for (var i = 0; i < theList.Count - top; i++)
                 {
                     sorted = true;
                     if (compMethod(theList[i], theList[i+1]))
                     {
                         sorted = false;
-                        T temp = theList[i + 1];
+                        var temp = theList[i + 1];
                         theList[i + 1] = theList[i];
                         theList[i] = temp;
                     }
@@ -49,7 +49,6 @@ namespace DelegateComparer
             }
             Console.WriteLine();
             #endregion
-
             #region Descending
             var list2 = new List<int> {2435, 12, 63, 2, 72, 674, 2532, 123, 234523, 45, 234523, 45234526, 34534, 2134};
             BubbleSort(list2, CompareIntDesc);
@@ -60,10 +59,9 @@ namespace DelegateComparer
             }
             Console.WriteLine();
             #endregion
-
             #region Ascending Ints
             #region names
-            List<string> navne = new List<string>()
+            var navne = new List<string>()
             {
                 "Christian",
                 "Keld",
@@ -86,15 +84,22 @@ namespace DelegateComparer
             }
             Console.WriteLine();
             #endregion
-
-            #region Ascending Ints
+            #region DEscending Ints
             #region names
-            List<string> navne2 = new List<string>()
-            {
-                "Christian","Keld","Oliver", "Patrick Rosen",
-                "Patrick Øl","Jan","Flemming","Steffan",
-                "Mark","Julia","Tor","Gert"
-            };
+            var navne2 = new List<string>();
+            navne2.Add("Christian");
+            navne2.Add("Keld");
+            navne2.Add("Oliver");
+            navne2.Add("Patrick Rosen");
+            navne2.Add("Patrick Øl");
+            navne2.Add("Jan");
+            navne2.Add("Flemming");
+            navne2.Add("Steffan");
+            navne2.Add("Mark");
+            navne2.Add("Julia");
+            navne2.Add("Tor");
+            navne2.Add("Gert");
+
             #endregion
             BubbleSort(navne2, CompareStringDesc);
             Console.WriteLine("Descending Strings...");
@@ -104,9 +109,8 @@ namespace DelegateComparer
             }
             Console.WriteLine();
             #endregion
-
             #region Orders
-            List<Order> orders = Helper.makeOrders();
+            var orders = Helper.makeOrders();
             BubbleSort(orders, CompareOrderAmount);
             foreach (var o in orders)
             {
@@ -115,7 +119,7 @@ namespace DelegateComparer
             #endregion
 
             Console.WriteLine();
-            List<Order> orders2 = Helper.makeOrders();
+            var orders2 = Helper.makeOrders();
             BubbleSort(orders2, CompareStringLenght);
             foreach (var s in orders2)
             {
