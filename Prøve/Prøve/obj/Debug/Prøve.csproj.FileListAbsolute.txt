@@ -1,0 +1,6 @@
+C:\Users\HVF-E308\Desktop\Rosenheim\Prøve\Prøve\bin\Debug\Prøve.exe.config
+C:\Users\HVF-E308\Desktop\Rosenheim\Prøve\Prøve\bin\Debug\Prøve.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\Prøve\Prøve\bin\Debug\Prøve.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\Prøve\Prøve\obj\Debug\Prøve.csprojResolveAssemblyReference.cache
+C:\Users\HVF-E308\Desktop\Rosenheim\Prøve\Prøve\obj\Debug\Prøve.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\Prøve\Prøve\obj\Debug\Prøve.pdb
