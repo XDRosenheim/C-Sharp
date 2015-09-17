@@ -1,31 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Timers;
 
 namespace Prøve
 {
     class Program
     {
-        public List<T> RandomMethodGoesHere()
+        //private static int counter = 0;
+        private static void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
-            Random rnd = new Random();
-            if (rnd.Next(1,3) == 1)
-            {
-                return true;
-            }
-            return false;
+            Console.SetCursorPosition(0,0);
+            Console.WriteLine(e.SignalTime);
+            //Console.WriteLine(counter);
+            //counter++;
         }
 
-        
-
-        List<T> filterList<T>(List<T> list, randomMethodGoesHere )
-        {
-            
-        }
-        
-            
-            
+        private static Timer _aTimer;
         private static void Main(string[] args)
         {
+            _aTimer = new Timer(100);
+            _aTimer.Elapsed += OnTimedEvent;
+            _aTimer.Enabled = true;
+
             #region opg1
             /*
              * SUMMARY:
@@ -71,9 +66,11 @@ namespace Prøve
             #region opg5
             /*
              * SUMMARY:
-             *      A method filterlist List<T> FilterList<T>(List<T> list, [A method that random returns true])
              */
+
             #endregion
+
+
             Console.ReadKey();
         }
     }

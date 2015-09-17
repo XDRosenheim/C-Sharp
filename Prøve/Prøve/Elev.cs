@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-namespace Prøve
+﻿namespace Prøve
 {
     class Elev
     {
@@ -17,6 +15,11 @@ namespace Prøve
             Height = height;
             Grade = grade;
             Subject = subject;
+        }
+
+        public void SetTime(int timeInSeconds)
+        {
+            
         }
 
         public override string ToString()
