@@ -1,0 +1,6 @@
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateFunkString\DelegateFunkString\bin\Debug\DelegateFunkString.exe.config
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateFunkString\DelegateFunkString\bin\Debug\DelegateFunkString.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateFunkString\DelegateFunkString\bin\Debug\DelegateFunkString.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateFunkString\DelegateFunkString\obj\Debug\DelegateFunkString.csprojResolveAssemblyReference.cache
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateFunkString\DelegateFunkString\obj\Debug\DelegateFunkString.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateFunkString\DelegateFunkString\obj\Debug\DelegateFunkString.pdb

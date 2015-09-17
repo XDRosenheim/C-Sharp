@@ -1,0 +1,6 @@
+C:\Users\HVF-E308\Desktop\Rosenheim\AnonymeTyper\AnonymeTyper\bin\Debug\AnonymeTyper.exe.config
+C:\Users\HVF-E308\Desktop\Rosenheim\AnonymeTyper\AnonymeTyper\bin\Debug\AnonymeTyper.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\AnonymeTyper\AnonymeTyper\bin\Debug\AnonymeTyper.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\AnonymeTyper\AnonymeTyper\obj\Debug\AnonymeTyper.csprojResolveAssemblyReference.cache
+C:\Users\HVF-E308\Desktop\Rosenheim\AnonymeTyper\AnonymeTyper\obj\Debug\AnonymeTyper.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\AnonymeTyper\AnonymeTyper\obj\Debug\AnonymeTyper.pdb

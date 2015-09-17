@@ -1,0 +1,8 @@
+C:\Users\HVF-E308\Desktop\Rosenheim\TheOrders\TheOrders\bin\Debug\TheOrders.exe.config
+C:\Users\HVF-E308\Desktop\Rosenheim\TheOrders\TheOrders\bin\Debug\TheOrders.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\TheOrders\TheOrders\bin\Debug\TheOrders.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\TheOrders\TheOrders\bin\Debug\OrderLib.dll
+C:\Users\HVF-E308\Desktop\Rosenheim\TheOrders\TheOrders\bin\Debug\OrderLib.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\TheOrders\TheOrders\obj\Debug\TheOrders.csprojResolveAssemblyReference.cache
+C:\Users\HVF-E308\Desktop\Rosenheim\TheOrders\TheOrders\obj\Debug\TheOrders.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\TheOrders\TheOrders\obj\Debug\TheOrders.pdb

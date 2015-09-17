@@ -1,0 +1,8 @@
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateComparer\DelegateComparer\bin\Debug\DelegateComparer.exe.config
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateComparer\DelegateComparer\bin\Debug\DelegateComparer.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateComparer\DelegateComparer\bin\Debug\DelegateComparer.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateComparer\DelegateComparer\obj\Debug\DelegateComparer.csprojResolveAssemblyReference.cache
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateComparer\DelegateComparer\obj\Debug\DelegateComparer.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateComparer\DelegateComparer\obj\Debug\DelegateComparer.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateComparer\DelegateComparer\bin\Debug\OrderLib.dll
+C:\Users\HVF-E308\Desktop\Rosenheim\DelegateComparer\DelegateComparer\bin\Debug\OrderLib.pdb

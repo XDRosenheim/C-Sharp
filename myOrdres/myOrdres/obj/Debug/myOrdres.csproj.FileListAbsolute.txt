@@ -1,0 +1,6 @@
+C:\Users\HVF-E308\Desktop\Rosenheim\myOrdres\myOrdres\bin\Debug\myOrdres.exe.config
+C:\Users\HVF-E308\Desktop\Rosenheim\myOrdres\myOrdres\obj\Debug\myOrdres.csprojResolveAssemblyReference.cache
+C:\Users\HVF-E308\Desktop\Rosenheim\myOrdres\myOrdres\bin\Debug\myOrdres.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\myOrdres\myOrdres\bin\Debug\myOrdres.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\myOrdres\myOrdres\obj\Debug\myOrdres.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\myOrdres\myOrdres\obj\Debug\myOrdres.pdb

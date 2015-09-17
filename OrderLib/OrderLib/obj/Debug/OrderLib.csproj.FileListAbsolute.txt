@@ -1,0 +1,5 @@
+C:\Users\HVF-E308\Desktop\Rosenheim\OrderLib\OrderLib\bin\Debug\OrderLib.dll
+C:\Users\HVF-E308\Desktop\Rosenheim\OrderLib\OrderLib\bin\Debug\OrderLib.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\OrderLib\OrderLib\obj\Debug\OrderLib.dll
+C:\Users\HVF-E308\Desktop\Rosenheim\OrderLib\OrderLib\obj\Debug\OrderLib.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\OrderLib\OrderLib\obj\Debug\OrderLib.csprojResolveAssemblyReference.cache

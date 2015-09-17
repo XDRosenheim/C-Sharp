@@ -1,0 +1,6 @@
+C:\Users\HVF-E308\Desktop\Rosenheim\TypeTest\TypeTest\bin\Debug\TypeTest.exe.config
+C:\Users\HVF-E308\Desktop\Rosenheim\TypeTest\TypeTest\obj\Debug\TypeTest.csprojResolveAssemblyReference.cache
+C:\Users\HVF-E308\Desktop\Rosenheim\TypeTest\TypeTest\bin\Debug\TypeTest.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\TypeTest\TypeTest\bin\Debug\TypeTest.pdb
+C:\Users\HVF-E308\Desktop\Rosenheim\TypeTest\TypeTest\obj\Debug\TypeTest.exe
+C:\Users\HVF-E308\Desktop\Rosenheim\TypeTest\TypeTest\obj\Debug\TypeTest.pdb
