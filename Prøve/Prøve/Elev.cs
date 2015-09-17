@@ -4,25 +4,25 @@ namespace Prøve
 {
     class Elev
     {
-        public string navn;
-        public bool isDumpet;
-        public float height;
-        public int grade;
-        public string subject;
+        public string Navn, Subject;
+        public bool IsDumpet;
+        public float Height;
+        public int Grade;
 
         public Elev(string navn, bool isDumpet, float height, int grade, string subject)
         {
-            this.navn = navn;
-            this.isDumpet = isDumpet;
-            this.height = height;
-            this.grade = grade;
-            this.subject = subject;
+            //this.Navn = navn;
+            Navn = navn;
+            IsDumpet = isDumpet;
+            Height = height;
+            Grade = grade;
+            Subject = subject;
         }
 
         public override string ToString()
         {
-            var dumpet = isDumpet ? "Ja." : "Nej";
-            return "Navn: " + navn + " Dumpet: " + dumpet + " Højde: " + height + " Karakter: " + grade + " Emne: " + subject;
+            var dumpet = IsDumpet ? "Ja." : "Nej";
+            return "Navn: " + Navn + " Dumpet: " + dumpet + " Højde: " + Height + " Karakter: " + Grade + " Emne: " + Subject;
         }
     }
 }
